@@ -58,16 +58,3 @@
 🤖 AI, Deep Learning & Agentic AI
        ↓
 🚀 Continuous Learning & Deployment
-
-
-    
-    subgraph Engine [Inference Engine]
-        Embeddings --> LLM[Generative AI / Foundation Model]
-        Embeddings --> MLModels[Supervised & Deep Learning Classifiers]
-    end
-    
-    LLM --> PostProc[Output Verification & Safety Alignment]
-    MLModels --> PostProc
-    PostProc --> Visualizer[Interactive Visualizations & REST API Delivery]
-
-    style Engine fill:#F9F9F9,stroke:#333,stroke-dasharray: 5 5;
