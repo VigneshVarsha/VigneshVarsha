@@ -58,3 +58,47 @@
 🤖 AI, Deep Learning & Agentic AI
        ↓
 🚀 Continuous Learning & Deployment
+
+
+flowchart LR
+    subgraph Foundation ["1. Core Engineering"]
+        A[Python & Java] --> B[Data Structures & Algorithms]
+        B --> C[Vectorized Math & Stats]
+    end
+
+    subgraph DataML ["2. Machine Learning Core"]
+        C --> D[Data Wrangling & EDA]
+        D --> E[Scikit-Learn / Classical ML]
+        E --> F[Deep Learning & Neural Networks]
+    end
+
+    subgraph GenAI ["3. Modern AI / LLM Systems"]
+        F --> G[Prompt Engineering & Embeddings]
+        G --> H[RAG & Knowledge Bases]
+        H --> I[Agentic Workflows & Tool Use]
+    end
+
+    subgraph Production ["4. Deployment & Scale"]
+        I --> J[REST APIs / Microservices]
+        J --> K[Cloud & Containerized Deployments]
+    end
+
+    style Foundation fill:#E1F5FE,stroke:#0288D1,stroke-width:2px;
+    style DataML fill:#E8F5E9,stroke:#388E3C,stroke-width:2px;
+    style GenAI fill:#FFF3E0,stroke:#F57C00,stroke-width:2px;
+    style Production fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px;
+
+graph TD
+    User([User Request / Raw Input]) --> Preprocess[Data Preprocessing & Validation]
+    Preprocess --> Embeddings[Feature Extraction & Vector Representation]
+    
+    subgraph Engine [Inference Engine]
+        Embeddings --> LLM[Generative AI / Foundation Model]
+        Embeddings --> MLModels[Supervised & Deep Learning Classifiers]
+    end
+    
+    LLM --> PostProc[Output Verification & Safety Alignment]
+    MLModels --> PostProc
+    PostProc --> Visualizer[Interactive Visualizations & REST API Delivery]
+
+    style Engine fill:#F9F9F9,stroke:#333,stroke-dasharray: 5 5;
