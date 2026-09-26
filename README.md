@@ -41,8 +41,7 @@
 ## 🌱 My Development Journey
 
 ```text
-🌐 HTML + CSS + Web Fundamentals
-       ↓
+
 ⚡ JavaScript & Python Foundations
        ↓
 🧠 DSA Basics
