@@ -1,4 +1,3 @@
-<div align="center">
 ⚡ Hi, I'm Devarakonda Vignesh Varsha
 
 ### 🤖 Machine Learning Intern & AI/ML Undergraduate Engineering Student
