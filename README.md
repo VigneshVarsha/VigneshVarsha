@@ -201,7 +201,7 @@ Production & Deployment
   </a>
 </p>
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Graph
 
 <p align="center">
   <a href="https://github.com/VigneshVarsha">
