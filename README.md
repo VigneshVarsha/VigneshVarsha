@@ -196,11 +196,19 @@ Production & Deployment
 ## 📈 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VigneshVarsha&theme=github-compact&hide_border=true" alt="GitHub Activity Graph" />
+  <a href="https://github.com/VigneshVarsha">
+    <img src="https://ghchart.rshah.org/VigneshVarsha" alt="Vignesh Varsha's GitHub contribution activity" />
+  </a>
 </p>
 
-## 🐍 Contribution Graph
+## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+  <a href="https://github.com/VigneshVarsha">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VigneshVarsha/VigneshVarsha/output/github-contribution-grid-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VigneshVarsha/VigneshVarsha/output/github-contribution-grid-snake.svg" />
+      <img src="https://raw.githubusercontent.com/VigneshVarsha/VigneshVarsha/output/github-contribution-grid-snake.svg" alt="Vignesh Varsha's GitHub Contribution Snake" />
+    </picture>
+  </a>
 </p>
